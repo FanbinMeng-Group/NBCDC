@@ -1,0 +1,15 @@
+# dataset path
+#path: /root/code/project/yolov8/
+#train: ./dataset/images/train
+#val: ./dataset/images/val
+#test: ./dataset/images/test
+
+path: ../datasets/bccd
+train: images/train
+val: images/val
+test: images/test
+# number of classes
+nc: 3
+
+# class names
+names: ['WBC', 'RBC', 'Platelets']
